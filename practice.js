@@ -1,6 +1,6 @@
- let div =document.querySelector("div")
- div.style.backgroundColor="green"
-  div.style.backgroundColor="purple"
-  div.style.fontSize="26px"
-  div.innerText="hey!!"
-  div.style.visibility="hidden"
+const someObject = { name: 'Mike',eid:1001,esal:45000 };
+
+for (let key of Object.keys(someObject)) {
+console.log(key + ": " + someObject[key]);
+}
+// console.log(Object.keys(someObject))
